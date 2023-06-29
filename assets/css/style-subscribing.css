@@ -46,7 +46,7 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 350px;
     height: 340px;
     justify-content: center;
     align-items: center;
