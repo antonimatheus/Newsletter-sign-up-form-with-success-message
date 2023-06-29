@@ -198,6 +198,19 @@ form > input {
 
 /*
 
+ERROR MESSAGE
+
+*/
+
+.required {
+    display: none;
+    font-size: 11px;
+    margin-left: 84px;
+    color: var(--Tomato);
+}
+
+/*
+
 MOBILE
 
 */

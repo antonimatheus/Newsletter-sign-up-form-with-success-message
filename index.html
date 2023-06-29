@@ -32,10 +32,13 @@
         </div>
         
         <form action="subscribing/subscribing.html" method="get">
-          <label for="iemail">Email address</label>
+          
+          <label for="iemail">Email address<span class="required">Valid email required</span></label>
+          
           <input type="text" name="email" id="iemail" placeholder="email@company.com" required>
+
           <div id="button">
-            <input type="submit" value="Subscribe to monthly newsletter">
+            <input type="submit" value="Subscribe to monthly newsletter" ><!--onclick="submit()"-->
           </div>
         </form>
 
