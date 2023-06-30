@@ -33,12 +33,12 @@
         
         <form action="subscribing/subscribing.html" method="get">
           
-          <label for="iemail">Email address<span class="required">Valid email required</span></label>
+          <label for="iemail" id="ilabel">Email address<span id="required">Valid email required</span></label>
           
-          <input type="text" name="email" id="iemail" placeholder="email@company.com" required>
+          <input type="text" name="email" id="iemail" placeholder="email@company.com" spellcheck="false" onkeyup="validateEmail()">
 
           <div id="button">
-            <input type="submit" value="Subscribe to monthly newsletter" ><!--onclick="submit()"-->
+            <input type="submit" value="Subscribe to monthly newsletter" id="submit" onclick="submit"><!--onclick="submit()"-->
           </div>
         </form>
 
