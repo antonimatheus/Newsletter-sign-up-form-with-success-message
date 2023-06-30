@@ -207,7 +207,8 @@ ERROR MESSAGE
     font-size: 11px;
     margin-left: 84px;
     color: var(--Tomato);
-    animation: fade .7s ease-in-out forwards;
+    transition: 1s ease-in-out;
+    animation: fade .8s ease-in-out forwards;
 }
 
 /*
@@ -269,6 +270,10 @@ MOBILE
         background-repeat: no-repeat;
         background-size: contain;
         /*background-color: red;*/
+    }
+
+    #required  {
+        margin-left: 150px;
     }
     
 }
