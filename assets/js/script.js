@@ -34,3 +34,11 @@ function submitForm() {
         return false;
     }
 }
+
+
+/*let yourEmail = document.querySelector("#yourEmail")
+const confirmation = document.querySelector("#confirmation")
+
+if (confirmation) {
+    window.alert('oioioi')
+}*/
