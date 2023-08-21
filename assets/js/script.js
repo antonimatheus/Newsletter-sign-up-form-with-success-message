@@ -2,12 +2,14 @@ var emailField = document.getElementById('iemail');
 var emailLabel = document.getElementById('ilabel');
 var emailError = document.getElementById('required');
 var submitButton = document.getElementById('submit');
+var pagina = document.getElementById('confirmation');
 
 function validateEmail() {
     emailField.style.background = 'rgba(255, 0, 0, 0.1)';
 
     if (!emailField.value.match(/^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
         emailError.style.display = 'inline-block';
+        emailError.style.color = 'red';
         emailField.style.borderColor = 'red';
         return false;
     } else {
@@ -34,11 +36,3 @@ function submitForm() {
         return false;
     }
 }
-
-
-/*let yourEmail = document.querySelector("#yourEmail")
-const confirmation = document.querySelector("#confirmation")
-
-if (confirmation) {
-    window.alert('oioioi')
-}*/

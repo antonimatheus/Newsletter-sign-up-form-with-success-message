@@ -30,7 +30,10 @@
         
         <form action="subscribing/subscribing.html" method="get" autocomplete="off">
           
-          <label for="iemail" id="ilabel">Email address<span id="required">Valid email required</span></label>
+          <div id="labelForm">
+            <label for="iemail" id="ilabel">Email address</label>
+            <span id="required">Valid email required</span>
+          </div>
           
           <input type="text" name="email" id="iemail" placeholder="email@company.com" spellcheck="false" onkeyup="validateEmail()">
 

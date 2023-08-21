@@ -113,8 +113,13 @@ form {
 }
 
 label {
+    display: flex;
     font-size: 11px;
     color: var(--DarkSlateGrey);
+}
+
+#labelForm {
+    display: flex;
 }
 
 form > input {
@@ -204,8 +209,7 @@ ERROR MESSAGE
 #required {
     display: none;
     font-size: 11px;
-    margin-left: 84px;
-    color: var(--Tomato);
+    margin-left: auto;
     transition: 1s ease-in-out;
     animation: fade .8s ease-in-out forwards;
 }
@@ -272,7 +276,7 @@ MOBILE
     }
 
     #required  {
-        margin-left: 150px;
+        margin-left: auto;
     }
     
 }

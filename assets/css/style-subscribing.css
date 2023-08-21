@@ -175,6 +175,11 @@ main {
     /*background-color: #FF5572;*/
 }
 
+#subscribing h1 {
+    display: flex;
+    height: 60px;
+}
+
 #subscribing {
     display: flex;
     width: 100%;
@@ -184,15 +189,19 @@ main {
     gap: 30px;
 }
 
-#form {
-    display: flex;
-    gap: 30px;
-}
-
 #subscribing p {
     font-size: 16px;
     line-height: 18px;
     color: var(--DarkSlateGrey);
+}
+
+#confirmation {
+    display: flex;
+    height: 20%;
+}
+
+#img { 
+    height: 13%;
 }
 
 #img img {
