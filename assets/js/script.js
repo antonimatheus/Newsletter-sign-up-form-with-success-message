@@ -14,8 +14,8 @@ function validateEmail() {
         return false;
     } else {
         emailField.style.background = 'rgba(0, 255, 0, 0.1)';
-    emailField.style.borderColor = 'green';
-    emailError.style.display = 'none';
+        emailField.style.borderColor = 'green';
+        emailError.style.display = 'none';
     return true;
     }
 }

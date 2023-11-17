@@ -1,14 +1,6 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: 'Roboto-Bold';
-    src: url('../fonts/Roboto-Bold.ttf') format(truetype);   
-}
-
-@font-face {
-        font-family: 'Roboto-Regular';
-        src: url('../fonts/Roboto-Regular.ttf') format(truetype);
-}
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Roboto:wght@400;700&display=swap');
 
 :root {
     /* Fonts */
